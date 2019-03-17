@@ -1,0 +1,246 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/gravel.png);
+    padding-bottom: 0px;
+}
+
+header {
+    display:block;
+    background-color:white;
+    padding: 15px;
+    max-width:100%;
+    height:100%;
+    margin: 0 auto;
+
+}
+
+header h1 {
+
+    display:inline;
+    background-color: rgb(0, 149, 255);
+    padding:15px;
+    padding-top:10px;
+    margin-left:273px;
+    color:white;
+    font-family:georgia;
+}
+
+nav li {
+    display: inline-block;
+    color: grey;
+    padding: 15px;
+    margin-left: 0%;
+
+
+}
+
+   .line2::after {
+    content: "|";
+    float: right;
+    color: black;
+    margin-left: 20px;
+   }
+
+   .line1::after {
+    content: "|";
+    float: right;
+    color: black;
+    margin-left: 20px;
+   }
+
+
+
+nav {
+    display: inline;
+    float: right;
+    margin-right:100px;
+}
+#about {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    height:450px;
+}
+
+
+#contact {
+    background-color:white;
+    width: 660px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    height:300px;
+}
+
+.name2 {
+    display:inline;
+    background-color: rgb(0, 149, 255);
+    padding:15px;
+    padding-top:10px;
+    margin-left:420px;
+    font-family:georgia;
+
+}
+
+p, .pic {
+    display:inline;
+}
+
+.pic {
+    float:left;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2.0;
+    padding: 9px;
+    font-family: helvetica;
+   
+}
+
+
+
+h2 {
+    font-size: 30px;
+    font-family: georgia;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+h3{
+    font-size:30px;
+    font-family: georgia;
+    padding-top: 40px;
+    margin-left: 25px;
+    color:rgb(0, 149, 255);
+
+}
+
+.bigbox {
+    height: 110px;
+}
+
+.namebox {
+    height: 5px;
+
+}
+
+.emailbox {
+    height: 5px;
+
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    resize: vertical;
+}
+
+label {
+    margin-left: 30px;
+}
+
+hr {
+    width: 90%;
+}
+
+.button {
+    width: 20%;
+    margin-top: 0px;
+}
+
+h4{
+    font-size:30px;
+    font-family: georgia;
+    padding-top: 40px;
+    margin-left: 20px;
+    color:rgb(0, 149, 255);
+    font-family: georgia;
+
+}
+
+#portfolio {
+    background-color:white;
+    width: 660px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    height:380px;
+}
+
+.name3 {
+    margin-left: 423px;
+}
+
+
+.row {
+    display: table-row;
+  }
+  
+
+  .pic1 {
+      margin-left:20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      width: 170px;
+      height:120px;
+  }
+
+  .pic2 {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      width: 170px;
+      height:120px;
+  }
+
+  .pic3 {
+      margin-left: 20px;
+      width: 170px;
+      height:120px;
+  }
+
+  .pic4 {
+      margin-bottom: 20px;
+      width: 170px;
+      height:120px;
+  }
+
+
+
+ .pic5 {
+     margin-bottom: 20px;
+     width: 170px;
+     height:120px;
+ }
+
+@media (max-width: 640px) {
+ p {
+     font-size: 1.25rem;
+ }
+
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 1.5rem;
+    }
+   
+   }
+
+   @media (max-width: 980px) {
+    p {
+        font-size: 1.7rem;
+    }
+   
+   }  
